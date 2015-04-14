@@ -14,16 +14,6 @@
         android:baselineAligned="true"
         android:weightSum="1">
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/edtNewItem"
-            android:layout_centerHorizontal="true"
-            android:visibility="visible"
-            android:elegantTextHeight="true"
-            android:background="#28c0e660"
-            android:layout_margin="15dp" />
-
         <ListView
             android:layout_width="match_parent"
             android:layout_height="280dp"
@@ -35,17 +25,6 @@
             android:choiceMode="singleChoice"
             android:nestedScrollingEnabled="true" />
 
-        <Button
-            android:layout_width="fill_parent"
-            android:layout_height="30dp"
-            android:text="+ Add"
-            android:id="@+id/menuItemAdd"
-            android:layout_marginTop="15dp"
-            android:enabled="true"
-            android:textAlignment="center"
-            android:shadowColor="#44ffffff"
-            android:textStyle="bold"
-            android:background="#769f1900" />
     </LinearLayout>
 
 </RelativeLayout>
